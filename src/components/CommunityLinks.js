@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function CommunityLinks() {
-    const [walletAddress, setWalletAddress] = useState('0xYourEthereumWalletAddressHere');
+    const walletAddress = 'Coming Soon...';
 
     const copyToClipboard = () => {
         navigator.clipboard.writeText(walletAddress);
@@ -21,7 +21,6 @@ function CommunityLinks() {
                 </button>
             </div>
 
-           
             <div className="social-links flex justify-center space-x-2 sm:space-x-4 md:space-x-6">
                 <a 
                     href="https://t.me/+nc5hZuYsrC05OTc0" 

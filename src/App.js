@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import MemeGallery2 from './components/MemeGallery2';
 import MemeGallery from './components/MemeGallery';
 import CommunityLinks from './components/CommunityLinks';
 import Footer from './components/Footer';
