@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 function CommunityLinks() {
-    const walletAddress = 'Coming Soon...';
+    const walletAddress = '0xYourEthereumWalletAddressHere';
 
     const copyToClipboard = () => {
         navigator.clipboard.writeText(walletAddress);
