@@ -1,7 +1,7 @@
 import React from 'react';
 
 function CommunityLinks() {
-    const walletAddress = 'Coming soon...';
+    const walletAddress = 'Coming Soon...';
 
     const copyToClipboard = () => {
         navigator.clipboard.writeText(walletAddress);

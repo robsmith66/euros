@@ -11,7 +11,7 @@ function StatsDisplay() {
 
     return (
         <div className="bg-yellow-400 text-black p-8 rounded-lg shadow-lg">
-            <h2 className="text-2xl font-bold mb-4 text-center">$RUDN Stats</h2>
+            <h2 className="text-2xl font-bold mb-4 text-center">$RUDNIGGER Stats</h2>
             
             <div className="flex flex-col items-center mb-8">
                 <div className="flex flex-col items-center bg-gray-800 p-6 rounded">
