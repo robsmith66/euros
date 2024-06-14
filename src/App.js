@@ -1,31 +1,24 @@
 import React from 'react';
-import Header from './components/Header'; // Import the Header component
-import Hero from './components/Hero'; // Import the Hero Section
-import MemeGallery2 from './components/MemeGallery2'; // Import the About Meme Coin Section
-import MemeGallery from './components/MemeGallery'; // Import the Meme Gallery
-import CommunityLinks from './components/CommunityLinks'; // Import the Community Links
-import Footer from './components/Footer'; // Import the Header component
-import SlidingBanner from './components/SlidingBanner'; // Import the Header component
-
+import Header from './components/Header';
+import Hero from './components/Hero';
+import MemeGallery2 from './components/MemeGallery2';
+import MemeGallery from './components/MemeGallery';
+import CommunityLinks from './components/CommunityLinks';
+import Footer from './components/Footer';
+import SlidingBanner from './components/SlidingBanner';
+import StatsDisplayed from './components/StatsDisplayed';
+import './index.css';
 
 function App() {
   return (
     <div>
-      <Header />  
-
-      <Hero /> 
-      <SlidingBanner /> 
-
-      <CommunityLinks /> 
-
-
-      <MemeGallery /> 
-      <MemeGallery2 /> 
-
+      <Header />
+      <Hero />
+      <SlidingBanner />
+      <CommunityLinks />
+      <MemeGallery />
+      <StatsDisplayed />
       <Footer />
-
-
-
     </div>
   );
 }

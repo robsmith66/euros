@@ -5,12 +5,14 @@ function MemeGallery() {
         '/1.webp',
         '/2.webp',
         '/3.webp',
-        '/4.webp'
+        '/4.webp',
+        '/5.webp'
+
     ];
 
     return (
         <div className="gallery bg-red-600 p-8">
-            <h2 className="text-3xl font-bold text-white text-center mb-6">$RUDNIGGER Artwork</h2>
+            <h2 className="text-3xl font-bold text-yellow-400 text-center mb-6">$RUDNIGGER Artwork</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {memes.map((meme, index) => (
                     <div key={index} className="meme overflow-hidden rounded-lg shadow-lg">
