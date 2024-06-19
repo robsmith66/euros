@@ -2,7 +2,7 @@ import React from 'react';
 
 function StatsDisplay() {
     const mainStats = [
-        { label: 'Minutes Played', value: 0 },
+        { label: 'Minutes Played', value: 90 },
         { label: 'Successful Tackles', value: 0 },
         { label: 'Clean Sheets', value: 0 },
     ];
