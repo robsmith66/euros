@@ -23,7 +23,7 @@ function CommunityLinks() {
 
             <div className="social-links flex justify-center space-x-2 sm:space-x-4 md:space-x-6">
                 <a 
-                    href="" 
+                    href="https://t.me/+nc5hZuYsrC05OTc0" 
                     className="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 sm:py-3 md:py-3 px-4 sm:px-6 md:px-6 rounded text-sm sm:text-lg md:text-lg">
                     Telegram
                 </a>
